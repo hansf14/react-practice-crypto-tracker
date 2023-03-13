@@ -37,11 +37,16 @@ body {
 	color: #2e363e;
 
 	width: 100%;
-	min-width: max-content;
 	height: 100vh;
 
 	display: flex;
 	flex-direction: column;
+}
+
+html,
+body {
+	width: 100vw;
+	max-width: 100%;
 }
 
 main {

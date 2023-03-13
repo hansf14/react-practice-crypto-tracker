@@ -38,7 +38,7 @@
 }
 
 .user-component__text {
-  
+  overflow: hidden;
 }
 
 .user-component__title {
