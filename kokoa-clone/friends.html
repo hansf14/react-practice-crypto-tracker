@@ -12,15 +12,26 @@
 <body>
   <div class="status-bar">
     <div class="status-bar__column">
-      <span>No Service</span>
-      <i class="fa-solid fa-wifi"></i>
-    </div>
-    <div class="status-bar__column">
       <span>18:43</span>
+      <i class="fa-brands fa-discord"></i>
+      <i class="fa-solid fa-comment"></i>
+      <i class="fa-brands fa-viber"></i>
     </div>
     <div class="status-bar__column">
-      <span>100%</span>
-      <i class="fa-solid fa-battery-full fa-lg"></i>
+      <svg class="status-bar__camera" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M 0 100
+                   L 20 30
+                   Q 50 -20 80 30
+                   L 100 100    
+                   Z" fill="black" vector-effect="non-scaling-stroke" />
+      </svg>
+      <div class="status-bar__camera-lens"></div>
+    </div>
+    <div class="status-bar__column">
+      <i class="fa-solid fa-wifi"></i>
+      <i class="fa-solid fa-signal"></i>
+      <span>73%</span>
+      <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
       <i class="fa-solid fa-bolt"></i>
     </div>
   </div>
@@ -47,38 +58,164 @@
   </a>
 
   <main class="friends-screen">
-    <div class="user-component">
-      <div class="user-component__column">
-        <img src="assets/hansf14.jfif" class="user-component__avatar user-component__avatar--xl" />
-        <div class="user-component__text">
-          <h4 class="user-component__title">hansf14</h4>
-          <!-- <h6 class="user-component__subtitle">This text whatever.</h6> -->
-        </div>
-      </div>
-      <div class="user-component__column"></div>
-    </div>
 
-    <div class="friends-screen__channel">
+    <section class="friends-screen__friend">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="assets/friends01.jfif" class="user-component__avatar user-component__avatar--xl" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Taylor Swift</h4>
+            <!-- <h6 class="user-component__subtitle">This text whatever.</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="assets/friends02.jfif" class="user-component__avatar user-component__avatar--xl" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Lady Gaga</h4>
+            <!-- <h6 class="user-component__subtitle">This text whatever.</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="assets/friends03.jfif" class="user-component__avatar user-component__avatar--xl" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Katy Perry</h4>
+            <!-- <h6 class="user-component__subtitle">This text whatever.</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="assets/friends04.jfif" class="user-component__avatar user-component__avatar--xl" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Beyoncé</h4>
+            <!-- <h6 class="user-component__subtitle">This text whatever.</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="assets/friends05.jfif" class="user-component__avatar user-component__avatar--xl" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Ed Sheeran</h4>
+            <!-- <h6 class="user-component__subtitle">This text whatever.</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+    </section>
+
+    <section class="friends-screen__channel">
+
       <div class="friends-screen__channel-header">
         <span>Channel</span>
         <i class="fas fa-chevron-up fa-xs"></i>
       </div>
 
-      <div class="user-component">
-        <div class="user-component__column">
-          <img src="assets/hansf14.jfif" class="user-component__avatar user-component__avatar--sm" />
-          <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+      <div class="channel-component">
+        <div class="channel-component__column">
+          <img src="assets/daehan.jpg" class="channel-component__avatar" />
+          <div class="channel-component__text">
+            <h4 class="channel-component__title">대한법무법인</h4>
           </div>
         </div>
-        <div class="user-component__column">
+        <div class="channel-component__column">
           <div>
-            <span>2</span>
+            <span>12</span>
             <i class="fas fa-chevron-right fa-xs"></i>
           </div>
         </div>
       </div>
-    </div>
+
+      <div class="channel-component">
+        <div class="channel-component__column">
+          <img src="assets/2lbio.png" class="channel-component__avatar" />
+          <div class="channel-component__text">
+            <h4 class="channel-component__title">2L BIO Co., Ltd</h4>
+          </div>
+        </div>
+        <div class="channel-component__column">
+          <div>
+            <span>11</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="channel-component">
+        <div class="channel-component__column">
+          <img src="assets/google.png" class="channel-component__avatar" />
+          <div class="channel-component__text">
+            <h4 class="channel-component__title">Google</h4>
+          </div>
+        </div>
+        <div class="channel-component__column">
+          <div>
+            <span>5</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="channel-component">
+        <div class="channel-component__column">
+          <img src="assets/facebook.png" class="channel-component__avatar" />
+          <div class="channel-component__text">
+            <h4 class="channel-component__title">Facebook</h4>
+          </div>
+        </div>
+        <div class="channel-component__column">
+          <div>
+            <span>8</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="channel-component">
+        <div class="channel-component__column">
+          <img src="assets/instagram.jfif" class="channel-component__avatar" />
+          <div class="channel-component__text">
+            <h4 class="channel-component__title">Instagram</h4>
+          </div>
+        </div>
+        <div class="channel-component__column">
+          <div>
+            <span>5</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="channel-component">
+        <div class="channel-component__column">
+          <img src="assets/twitter.png" class="channel-component__avatar" />
+          <div class="channel-component__text">
+            <h4 class="channel-component__title">Twitter</h4>
+          </div>
+        </div>
+        <div class="channel-component__column">
+          <div>
+            <span>3</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+    </section>
   </main>
 
   <nav class="nav">
