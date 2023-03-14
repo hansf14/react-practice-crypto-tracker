@@ -1,7 +1,7 @@
-.animation-hover-hi-there:hover {
+/* .animation-hover-hi-there:hover {
 	opacity: 1;
 	animation: hi-there 1s ease infinite;
-}
+} */
 
 @keyframes hi-there {
 	0% {
@@ -25,10 +25,9 @@
 	}
 }
 
-.animation-hover-bounce:hover {
-	opacity: 1;
+/* .animation-hover-bounce:hover {
 	animation: bounce 1.2s ease infinite -0.5s;
-}
+} */
 
 @keyframes bounce {
 	0% {
@@ -57,9 +56,9 @@
 	}
 }
 
-.animation-bounce-in-right {
+/* .animation-bounce-in-right {
 	animation: bounce-in-right 2s ease both;
-}
+} */
 
 @keyframes bounce-in-right {
 	0% {
@@ -78,9 +77,9 @@
 	}
 }
 
-.animation-fade-in-left {
+/* .animation-fade-in-left {
 	animation: fade-in-left 2s ease both;
-}
+} */
 
 @keyframes fade-in-left {
 	0% {
@@ -93,9 +92,9 @@
 	}
 }
 
-.animation-fade-in-bottom {
+/* .animation-fade-in-bottom {
 	animation: fade-in-bottom 2s ease both;
-}
+} */
 
 @keyframes fade-in-bottom {
 	0% {
@@ -136,4 +135,16 @@
 	100% {
 		transform: none;
 	}
+}
+
+@keyframes fade-blink {
+  0% {
+    opacity: 1
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
