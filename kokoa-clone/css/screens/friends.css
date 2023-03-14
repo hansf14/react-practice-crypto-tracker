@@ -4,39 +4,10 @@
 	background-color: #fafafa;
 	padding: 15px 0;
 	font-size: 15px;
-	margin-bottom: 15px;
-  margin-top: -15px;
 }
 
 #friends-display-link i {
 	color: rgba(0, 0, 0, 0.3);
-}
-
-.friends-screen {
-	padding: 0 var(--horizontal-space);
-}
-
-.friends-screen__channel {
-	margin-top: 25px;
-	border-top: var(--main-border);
-	padding-top: 15px;
-
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.friends-screen__friend {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.friends-screen__channel-header {
-	margin-bottom: 30px;
-	display: flex;
-	justify-content: space-between;
-	color: rgba(0, 0, 0, 0.5);
 }
 
 .splash-screen {

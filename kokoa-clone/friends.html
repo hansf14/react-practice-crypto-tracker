@@ -58,13 +58,113 @@
   </a>
 
   <main class="friends-screen">
+    <section class="user-component-list">
+      <div class="main-accordion">
+        <span>Multi-profiles</span>
+        <span>0</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
 
-    <section class="friends-screen__friend">
+      <div class="user-component">
+        <div class="user-component__column">
+          <div class="user-component__avatar user-component__avatar--xl">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="user-component__text">
+            <h4 class="user-component__title">Add and try out your multiple profiles!</h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-horizontal"></div>
+
+    <section class="user-component-list">
+      <div class="main-accordion">
+        <span>Friends' Birthdays</span>
+        <span>0</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <div class="user-component__avatar user-component__avatar--xl user-component__avatar--bg-tomato">
+            <i class="fa-solid fa-cake-candles"></i>
+          </div>
+          <div class="user-component__text">
+            <h4 class="user-component__title">Check your friends' birthdays!</h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+        </div>
+      </div>
+    </section>
+
+    <section class="user-component-list">
+      <div class="main-accordion">
+        <span>Pinned</span>
+        <span>2</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="assets/daehan.jpg"
+            class="user-component__avatar user-component__avatar--xl user-component__avatar--bg-white" />
+          <div class="user-component__text">
+            <div>
+              <h4 class="user-component__title user-component__title--sm" title="대한법무법인">대한법무법인</h4>
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h6 class="user-component__subtitle" title="공증인가 대한법무법인">공증인가 대한법무법인</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__content-item-counter">
+            <span>15</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="assets/2lbio.png"
+            class="user-component__avatar user-component__avatar--xl user-component__avatar--bg-white" />
+          <div class="user-component__text">
+            <div>
+              <h4 class="user-component__title user-component__title--sm" title="2L BIO Co., Ltd">2L BIO Co., Ltd</h4>
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h6 class="user-component__subtitle" title="Premium Absorbable Threads & Fillers">Premium Absorbable Threads
+              & Fillers</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__content-item-counter">
+            <span>12</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-horizontal"></div>
+
+    <section class="user-component-list">
+      <div class="main-accordion">
+        <span>Friends</span>
+        <span>5</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
+
       <div class="user-component">
         <div class="user-component__column">
           <img src="assets/friends01.jfif" class="user-component__avatar user-component__avatar--xl" />
           <div class="user-component__text">
-            <h4 class="user-component__title">Taylor Swift</h4>
+            <h4 class="user-component__title" title="Taylor Swift">Taylor Swift</h4>
             <h6 class="user-component__subtitle" title="I'm the problem, it's me">I'm the problem, it's me</h6>
           </div>
         </div>
@@ -79,7 +179,7 @@
         <div class="user-component__column">
           <img src="assets/friends02.jfif" class="user-component__avatar user-component__avatar--xl" />
           <div class="user-component__text">
-            <h4 class="user-component__title">Lady Gaga</h4>
+            <h4 class="user-component__title" title="Lady Gaga">Lady Gaga</h4>
             <h6 class="user-component__subtitle" title="Hold My Hand ✈️ Out Now">Hold My Hand ✈️ Out Now</h6>
           </div>
         </div>
@@ -94,7 +194,7 @@
         <div class="user-component__column">
           <img src="assets/friends03.jfif" class="user-component__avatar user-component__avatar--xl" />
           <div class="user-component__text">
-            <h4 class="user-component__title">Katy Perry</h4>
+            <h4 class="user-component__title" title="Katy Perry">Katy Perry</h4>
             <h6 class="user-component__subtitle" title="LOVE is the key that unlocks every door🗝️♥️">
               LOVE is the key that unlocks every door🗝️♥️
             </h6>
@@ -106,7 +206,7 @@
       <div class="user-component">
         <div class="user-component__column">
           <img src="assets/friends04.jfif" class="user-component__avatar user-component__avatar--xl" />
-          <div class="user-component__text">
+          <div class="user-component__text" title="Beyoncé">
             <h4 class="user-component__title">Beyoncé</h4>
             <!-- <h6 class="user-component__subtitle">This text whatever.</h6> -->
           </div>
@@ -122,8 +222,9 @@
         <div class="user-component__column">
           <img src="assets/friends05.jfif" class="user-component__avatar user-component__avatar--xl" />
           <div class="user-component__text">
-            <h4 class="user-component__title">Ed Sheeran</h4>
-            <h6 class="user-component__subtitle">Everywhere I look I still see you.. 💛</h6>
+            <h4 class="user-component__title" title="Ed Sheeran">Ed Sheeran</h4>
+            <h6 class="user-component__subtitle" title="Everywhere I look I still see you.. 💛">Everywhere I look I
+              still see you.. 💛</h6>
           </div>
         </div>
         <div class="user-component__column">
@@ -135,103 +236,137 @@
 
     </section>
 
-    <section class="friends-screen__channel">
+    <div class="divider-horizontal"></div>
 
-      <div class="friends-screen__channel-header">
-        <span>Channel</span>
+    <section class="user-component-list">
+      <div class="main-accordion">
+        <span>Channels</span>
+        <span>6</span>
         <i class="fas fa-chevron-up fa-xs"></i>
       </div>
 
-      <div class="channel-component">
-        <div class="channel-component__column">
-          <img src="assets/daehan.jpg" class="channel-component__avatar" />
-          <div class="channel-component__text">
-            <h4 class="channel-component__title">대한법무법인</h4>
+      <div class="user-component">
+        <div class="user-component__column user-component__column--big-gap">
+          <img src="assets/daehan.jpg"
+            class="user-component__avatar user-component__avatar--little-round user-component__avatar--bg-white" />
+          <div class="user-component__text">
+            <div>
+              <h4 class="user-component__title user-component__title--sm" title="대한법무법인">대한법무법인</h4>
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h6 class="user-component__subtitle" title="공증인가 대한법무법인" title="공증인가 대한법무법인">공증인가 대한법무법인</h6>
           </div>
         </div>
-        <div class="channel-component__column">
-          <div>
+        <div class="user-component__column">
+          <div class="user-component__content-item-counter">
+            <span>15</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column user-component__column--big-gap">
+          <img src="assets/2lbio.png"
+            class="user-component__avatar user-component__avatar--little-round user-component__avatar--bg-white" />
+          <div class="user-component__text">
+            <div>
+              <h4 class="user-component__title user-component__title--sm" title="2L BIO Co., Ltd">2L BIO Co., Ltd</h4>
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h6 class="user-component__subtitle" title="Premium Absorbable Threads & Fillers">Premium Absorbable Threads
+              & Fillers</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__content-item-counter">
             <span>12</span>
             <i class="fas fa-chevron-right fa-xs"></i>
           </div>
         </div>
       </div>
 
-      <div class="channel-component">
-        <div class="channel-component__column">
-          <img src="assets/2lbio.png" class="channel-component__avatar" />
-          <div class="channel-component__text">
-            <h4 class="channel-component__title">2L BIO Co., Ltd</h4>
+      <div class="user-component">
+        <div class="user-component__column user-component__column--big-gap">
+          <img src="assets/google.png"
+            class="user-component__avatar user-component__avatar--little-round user-component__avatar--bg-white" />
+          <div class="user-component__text">
+            <div>
+              <h4 class="user-component__title user-component__title--sm" title="Google">Google</h4>
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h6 class="user-component__subtitle" title="Premium Absorbable Threads & Fillers">Make life easier with a
+              little help from our products.</h6>
           </div>
         </div>
-        <div class="channel-component__column">
-          <div>
-            <span>11</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="channel-component">
-        <div class="channel-component__column">
-          <img src="assets/google.png" class="channel-component__avatar" />
-          <div class="channel-component__text">
-            <h4 class="channel-component__title">Google</h4>
-          </div>
-        </div>
-        <div class="channel-component__column">
-          <div>
+        <div class="user-component__column">
+          <div class="user-component__content-item-counter">
             <span>5</span>
             <i class="fas fa-chevron-right fa-xs"></i>
           </div>
         </div>
       </div>
 
-      <div class="channel-component">
-        <div class="channel-component__column">
-          <img src="assets/facebook.png" class="channel-component__avatar" />
-          <div class="channel-component__text">
-            <h4 class="channel-component__title">Facebook</h4>
+      <div class="user-component">
+        <div class="user-component__column user-component__column--big-gap">
+          <img src="assets/facebook.png"
+            class="user-component__avatar user-component__avatar--little-round user-component__avatar--bg-white" />
+          <div class="user-component__text">
+            <div>
+              <h4 class="user-component__title user-component__title--sm" title="Facebook">Facebook</h4>
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h6 class="user-component__subtitle" title="Move fast together.">Move fast together.</h6>
           </div>
         </div>
-        <div class="channel-component__column">
-          <div>
+        <div class="user-component__column">
+          <div class="user-component__content-item-counter">
             <span>8</span>
             <i class="fas fa-chevron-right fa-xs"></i>
           </div>
         </div>
       </div>
 
-      <div class="channel-component">
-        <div class="channel-component__column">
-          <img src="assets/instagram.jfif" class="channel-component__avatar" />
-          <div class="channel-component__text">
-            <h4 class="channel-component__title">Instagram</h4>
+      <div class="user-component">
+        <div class="user-component__column user-component__column--big-gap">
+          <img src="assets/instagram.jfif"
+            class="user-component__avatar user-component__avatar--little-round user-component__avatar--bg-white" />
+          <div class="user-component__text">
+            <div>
+              <h4 class="user-component__title user-component__title--sm" title="Instagram">Instagram</h4>
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h6 class="user-component__subtitle" title="Capture and Share the World's Moments.">Capture and Share the
+              World's Moments.</h6>
           </div>
         </div>
-        <div class="channel-component__column">
-          <div>
-            <span>4</span>
-            <i class="fas fa-chevron-right fa-xs"></i>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="channel-component">
-        <div class="channel-component__column">
-          <img src="assets/twitter.png" class="channel-component__avatar" />
-          <div class="channel-component__text">
-            <h4 class="channel-component__title">Twitter</h4>
-          </div>
-        </div>
-        <div class="channel-component__column">
-          <div>
+        <div class="user-component__column">
+          <div class="user-component__content-item-counter">
             <span>3</span>
             <i class="fas fa-chevron-right fa-xs"></i>
           </div>
         </div>
       </div>
+
+      <div class="user-component">
+        <div class="user-component__column user-component__column--big-gap">
+          <img src="assets/twitter.png"
+            class="user-component__avatar user-component__avatar--little-round user-component__avatar--bg-white" />
+          <div class="user-component__text">
+            <div>
+              <h4 class="user-component__title user-component__title--sm" title="Facebook">Twitter</h4>
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__content-item-counter">
+            <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+
 
     </section>
   </main>
