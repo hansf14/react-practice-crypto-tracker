@@ -15,7 +15,7 @@
 }
 
 .status-bar__column:first-child {
-	display: flex-start;
+	justify-content: flex-start;
 }
 
 .status-bar__column:first-child span {

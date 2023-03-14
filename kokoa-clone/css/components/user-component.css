@@ -7,6 +7,7 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+  min-width: 0;
 }
 
 .user-component__column:last-child {
@@ -45,6 +46,10 @@
 .user-component__title {
   font-weight: 600;
   font-size: 18px;
+
+  overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .user-component__title--not-bold {
