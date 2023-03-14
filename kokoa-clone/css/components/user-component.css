@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .user-component,

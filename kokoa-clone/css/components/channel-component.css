@@ -1,5 +1,6 @@
 .channel-component {
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .channel-component,

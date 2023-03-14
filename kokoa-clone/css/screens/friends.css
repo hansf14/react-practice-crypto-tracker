@@ -39,7 +39,7 @@
 	color: rgba(0, 0, 0, 0.5);
 }
 
-#splash-screen {
+.splash-screen {
   background-color: var(--yellow);
   position: absolute;
   width: 100vw;
