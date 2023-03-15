@@ -40,7 +40,8 @@ body {
 	color: #2e363e;
 
 	width: 100%;
-	height: 100vh;
+	height: 100vh; /* Fallback value for the height*/
+  height: 100dvh; /* To fix the infamous 100vh browser bug */
 
 	display: flex;
 	flex-direction: column;
