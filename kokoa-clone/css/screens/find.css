@@ -36,7 +36,8 @@
 
   display: flex;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
+  text-align: right;
 }
 
 .open-chat__header span .fa-chevron-right {
@@ -47,6 +48,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+  gap: 15px;
 }
 
 .open-post__title {
@@ -62,6 +64,8 @@
 
 .open-post__hashtags {
 	opacity: 0.6;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .open-post__members {
@@ -82,7 +86,7 @@
 	font-size: 14px;
 }
 
-.open-post__members .divider {
+.open-post__members .pipe {
 	width: 2px;
 	height: 15px;
 	background-color: rgba(0, 0, 0, 0.2);

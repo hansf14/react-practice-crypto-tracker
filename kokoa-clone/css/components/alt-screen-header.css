@@ -12,11 +12,17 @@
 
 .alt-header__column:nth-child(2) {
   flex-grow: 1;
+  overflow: hidden;
 }
 
 .alt-header__title {
   font-size: 28px;
   font-weight: 600;
+  padding: 0 15px;
+
+  overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .alt-header__title--sm {

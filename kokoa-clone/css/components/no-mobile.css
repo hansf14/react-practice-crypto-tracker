@@ -1,4 +1,4 @@
-#no-mobile {
+.screen-too-wide {
 	position: fixed;
 	z-index: 99;
 	height: 100vh;
@@ -8,11 +8,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	font-size: 32px;
 }
 
-@media screen and (max-width: 645px) {
-	#no-mobile {
+@media screen and (max-width: 645px) and (orientation: portrait) {
+	.screen-too-wide {
 		display: none;
 	}
 
