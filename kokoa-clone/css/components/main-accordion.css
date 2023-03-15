@@ -11,4 +11,5 @@
 
 .main-accordion .fa-chevron-up {
   margin-left: auto;
+  cursor: pointer;
 }

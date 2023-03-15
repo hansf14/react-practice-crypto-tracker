@@ -3,8 +3,10 @@
 	grid-template-columns: repeat(4, minmax(0, 1fr));
 	grid-auto-rows: minmax(0, 1fr);
 	justify-items: center;
+}
 
-	padding: 15px 0;
+.icon-row--5col {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .icon-row__icon {
@@ -19,7 +21,16 @@
 	padding: 15px;
 }
 
-.icon-row__icon > div {
+.icon-row__icon div:first-child  {
+  position: relative;
+}
+
+.icon-row__icon div:first-child i + div {
+  top: -5px;
+  right: -5px;
+}
+
+.icon-row__icon div:last-child {
 	flex-grow: 1;
 
 	display: flex;

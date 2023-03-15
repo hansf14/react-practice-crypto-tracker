@@ -25,12 +25,22 @@
 .open-chat__header {
 	display: flex;
 	justify-content: space-between;
+  align-items: center;
 	opacity: 0.8;
 	margin-bottom: 10px;
 }
 
 .open-chat__header span {
 	opacity: 0.6;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.open-chat__header span .fa-chevron-right {
+  padding-top: 2px;
 }
 
 .open-post {
@@ -47,6 +57,7 @@
 .open-post__title,
 .open-post__hashtags {
 	text-transform: uppercase;
+  cursor: pointer;
 }
 
 .open-post__hashtags {
@@ -84,6 +95,7 @@
 
 .open-post__photo {
   position: relative;
+  cursor: pointer;
 }
 
 .open-post__photo img {
