@@ -1,9 +1,11 @@
 .nav {
 	width: 100%;
 	background-color: #f9f9fa;
-	padding: 15px 50px;
-	box-sizing: border-box;
+	padding: 10px 50px;
 	border-top: 1px solid rgba(121, 121, 121, 0.3);
+
+  flex-shrink: 0;
+  overflow: hidden;
 }
 
 .nav__list {
@@ -15,7 +17,7 @@
 .nav__link {
 	position: relative;
 	color: #2e363e;
-  font-size: 33px;
+  font-size: 25px;
 }
 
 .nav__notification {

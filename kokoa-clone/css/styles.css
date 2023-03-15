@@ -104,7 +104,7 @@ The first applies to the thumb of the scrollbar, the second to the track. */
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	line-height: normal;
+	line-height: normal !important;
 }
 
 input:focus {
