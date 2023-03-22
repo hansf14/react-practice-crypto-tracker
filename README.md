@@ -36,22 +36,6 @@ Projects to be uploaded in the near future:
 &emsp;**[demo preview]**  
 &emsp;[https://hansf14.github.io/digital-nomad-life/kokoa-clone/](https://hansf14.github.io/digital-nomad-life/kokoa-clone/)
 
-<!-- 
-  Works: https://hansf14.github.io/digital-nomad-life/
-  Not Works: https://github.com/hansf14/digital-nomad-life
--->
-<style>
-li {
-  margin-top: 0.25em;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-</style>
 <details>
   <summary>Preview Screenshots</summary>
   <ul>
