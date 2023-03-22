@@ -1,21 +1,6 @@
-<!-- 
-  Works: https://hansf14.github.io/digital-nomad-life/
-  Not Works: https://github.com/hansf14/digital-nomad-life
--->
-<style>
-li {
-  margin-top: 0.25em;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-</style>
 
 # Project Name: digital-nomad-life
+
 ## Introduction
 
 Life being a digital nomad with some demo projects with the help of [nomadcoders](https://nomadcoders.co/) lectures and along with their code challenges.
@@ -51,10 +36,25 @@ Projects to be uploaded in the near future:
 &emsp;**[demo preview]**  
 &emsp;[https://hansf14.github.io/digital-nomad-life/kokoa-clone/](https://hansf14.github.io/digital-nomad-life/kokoa-clone/)
 
+<!-- 
+  Works: https://hansf14.github.io/digital-nomad-life/
+  Not Works: https://github.com/hansf14/digital-nomad-life
+-->
+<style>
+li {
+  margin-top: 0.25em;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+</style>
 <details>
   <summary>Preview Screenshots</summary>
-  <ul class="list-style-none">
-  <!-- hack: github given class name -->
+  <ul>
     <li>
       <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image01.PNG" alt="preview-screenshot-01" />
     </li>
