@@ -28,9 +28,63 @@ Projects to be uploaded in the near future:
 ### 1. [kokoa-clone-practice](https://hansf14.github.io/digital-nomad-life/kokoa-clone-practice/)
 
 &emsp;**[demo preview]**  
-&emsp;https://hansf14.github.io/digital-nomad-life/kokoa-clone-practice/
+&emsp;[https://hansf14.github.io/digital-nomad-life/kokoa-clone-practice/](https://hansf14.github.io/digital-nomad-life/kokoa-clone-practice/)
 
 ### 2. [kokoa-clone](https://hansf14.github.io/digital-nomad-life/kokoa-clone/)
 
 &emsp;**[demo preview]**  
-&emsp;https://hansf14.github.io/digital-nomad-life/kokoa-clone/
+&emsp;[https://hansf14.github.io/digital-nomad-life/kokoa-clone/](https://hansf14.github.io/digital-nomad-life/kokoa-clone/)
+
+<details>
+  <summary>Preview Screenshots</summary>
+  <ul style="list-style-type: none; display: flex; flex-wrap: wrap; align-items: flex-start;">
+    <li style="margin-top: 0.25em;">
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image01.PNG" alt="preview-screenshot-01" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image02.PNG" alt="preview-screenshot-02" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image03.PNG" alt="preview-screenshot-03" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image04.PNG" alt="preview-screenshot-04" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image05.PNG" alt="preview-screenshot-05" />
+    </li>        
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image06.PNG" alt="preview-screenshot-06" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image07.PNG" alt="preview-screenshot-07" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image08.PNG" alt="preview-screenshot-08" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image09.PNG" alt="preview-screenshot-09" />
+    </li>                
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image10.PNG" alt="preview-screenshot-10" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image11.PNG" alt="preview-screenshot-11" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image12.PNG" alt="preview-screenshot-12" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image13.PNG" alt="preview-screenshot-13" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image14.PNG" alt="preview-screenshot-14" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image15.PNG" alt="preview-screenshot-15" />
+    </li>
+    <li>
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image16.PNG" alt="preview-screenshot-16" />
+    </li>
+  </ul>
+</details>
