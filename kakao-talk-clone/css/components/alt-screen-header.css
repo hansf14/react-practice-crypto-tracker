@@ -39,6 +39,10 @@
   justify-content: flex-end;
 }
 
+.alt-header__column:last-child span {
+  cursor: pointer;
+}
+
 .alt-header__column span:last-child {
   margin-left: 20px;
 }

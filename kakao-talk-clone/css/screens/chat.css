@@ -95,16 +95,33 @@
 	align-items: center;
 	padding: 5px 15px;
 	box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
+
+  transition: padding-left 0.3s ease-in-out, padding-right 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child {
-  padding-right: 15px;
+  position: absolute;
+
+  transition: opacity 0.3s ease-in-out;
 }
 
 .reply .reply__column:last-child {
-  width: 100%;
 	position: relative;
+  
+  padding-left: 30px;
+  transition: padding-left 0.3s ease-in-out;
+}
+
+.reply:focus-within {
+  padding: 5px;
+}
+
+.reply:focus-within .reply__column:first-child {
+  opacity: 0;
+}
+
+.reply:focus-within .reply__column:last-child {
+  padding-left: 0;
 }
 
 .reply i {
@@ -117,19 +134,35 @@
 	border: var(--main-border);
 	border-radius: 20px;
 	box-sizing: border-box;
-	transition: all 0.3s ease-in-out;
 }
 
-.reply__column:last-child > i,
+.reply input:focus {
+	width: 100%;
+}
+
+.reply__column:last-child {
+  flex-grow: 1;
+}
+
+.reply .fa-square-plus,
+.reply .fa-face-smile,
+.reply button {
+  cursor: pointer;
+}
+
+.reply__column:last-child .fa-face-smile,
 .reply__column:last-child button {
 	position: absolute;
-	right: 3px;
-	top: 3px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.reply__column:last-child i {
-	right: 50px;
-	top: 24px;
+.reply__column:last-child .fa-face-smile {
+  right: 48px;
+}
+
+.reply__column:last-child button {
+  right: 3px;
 }
 
 .reply__column button {
@@ -140,43 +173,7 @@
 	border-radius: 50%;
 }
 
-.reply__column button i {
-	opacity: 1;
-}
-
 .reply__column button:focus,
 .reply__column button:active {
 	outline: none;
-}
-
-.reply .reply__column:first-child,
-.reply .fa-face-smile,
-.reply button {
-  transition: opacity 0.3s ease-in-out;
-}
-
-.reply:focus-within {
-  padding: 5px;
-}
-
-.reply:focus-within .reply__column:first-child {
-  width: 0;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-}
-
-/* .reply:focus-within .reply__column:first-child,
-.reply:focus-within .fa-face-smile,
-.reply:focus-within button {
-	opacity: 0;
-} */
-
-.reply input:focus {
-	width: 100%;
-	/* transform: translate(-13%, -80px); */
-}
-
-.reply:focus-within {
-  /* transform: translateY(80px); */
 }

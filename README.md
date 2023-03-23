@@ -17,7 +17,7 @@ Projects to be uploaded in the near future:
 
 ## Challenges
 
-- [x] [Kokoa Challenge (코코아 클론)](https://nomadcoders.co/kokoa-challenge)
+- [x] [Kokoa Challenge (코코아 클론)](https://nomadcoders.co/kakao-talk-challenge)
 - [ ] ...ing [CSS Layout Challenge](https://nomadcoders.co/css-layout-challenge)
 - [ ] ...ing [TypeScript Challenge (타입스크립트)](https://nomadcoders.co/typescript-challenge)
 - [ ] ...ing [Python Challenge (파이썬)](https://nomadcoders.co/python-challenge)
@@ -26,66 +26,66 @@ Projects to be uploaded in the near future:
 
 ## Demo Projects
 
-### 1. [kokoa-clone-practice](https://hansf14.github.io/digital-nomad-life/kokoa-clone-practice/)
+### 1. [kakao-talk-clone-practice](https://hansf14.github.io/digital-nomad-life/kakao-talk-clone-practice/)
 
 &emsp;**[demo preview]**  
-&emsp;[https://hansf14.github.io/digital-nomad-life/kokoa-clone-practice/](https://hansf14.github.io/digital-nomad-life/kokoa-clone-practice/)
+&emsp;[https://hansf14.github.io/digital-nomad-life/kakao-talk-clone-practice/](https://hansf14.github.io/digital-nomad-life/kakao-talk-clone-practice/)
 
-### 2. [kokoa-clone](https://hansf14.github.io/digital-nomad-life/kokoa-clone/)
+### 2. [kakao-talk-clone](https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/)
 
 &emsp;**[demo preview]**  
-&emsp;[https://hansf14.github.io/digital-nomad-life/kokoa-clone/](https://hansf14.github.io/digital-nomad-life/kokoa-clone/)
+&emsp;[https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/](https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/)
 
 <details>
   <summary>Preview Screenshots</summary>
   <ul>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image01.PNG" alt="preview-screenshot-01" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image01.PNG" alt="preview-screenshot-01" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image02.PNG" alt="preview-screenshot-02" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image02.PNG" alt="preview-screenshot-02" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image03.PNG" alt="preview-screenshot-03" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image03.PNG" alt="preview-screenshot-03" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image04.PNG" alt="preview-screenshot-04" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image04.PNG" alt="preview-screenshot-04" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image05.PNG" alt="preview-screenshot-05" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image05.PNG" alt="preview-screenshot-05" />
     </li>        
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image06.PNG" alt="preview-screenshot-06" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image06.PNG" alt="preview-screenshot-06" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image07.PNG" alt="preview-screenshot-07" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image07.PNG" alt="preview-screenshot-07" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image08.PNG" alt="preview-screenshot-08" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image08.PNG" alt="preview-screenshot-08" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image09.PNG" alt="preview-screenshot-09" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image09.PNG" alt="preview-screenshot-09" />
     </li>                
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image10.PNG" alt="preview-screenshot-10" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image10.PNG" alt="preview-screenshot-10" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image11.PNG" alt="preview-screenshot-11" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image11.PNG" alt="preview-screenshot-11" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image12.PNG" alt="preview-screenshot-12" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image12.PNG" alt="preview-screenshot-12" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image13.PNG" alt="preview-screenshot-13" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image13.PNG" alt="preview-screenshot-13" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image14.PNG" alt="preview-screenshot-14" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image14.PNG" alt="preview-screenshot-14" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image15.PNG" alt="preview-screenshot-15" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image15.PNG" alt="preview-screenshot-15" />
     </li>
     <li>
-      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kokoa-clone/preview-screenshots/kokoa-clone-demo-image16.PNG" alt="preview-screenshot-16" />
+      <img width="300px" src="https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/preview-screenshots/kakao-talk-clone-demo-image16.PNG" alt="preview-screenshot-16" />
     </li>
   </ul>
 </details>
