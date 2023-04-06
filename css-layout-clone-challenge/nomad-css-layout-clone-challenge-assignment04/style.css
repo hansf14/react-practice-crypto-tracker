@@ -1,0 +1,82 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:#DDE1D4;
+  padding:15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin:0 auto;
+}
+
+.ostrich {
+  width: 100%;
+  height: 100%;
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.center-center {
+  display: grid;
+  place-items: center;
+}
+
+.color-orange {
+  color: #f3440d;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.ostrich-big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.ostrich-big,
+.ostrich-small {
+  container-type: inline-size;
+}
+
+.ostrich-big > span,
+.ostrich-small > span {
+  font-size: 10cqw;
+  font-weight: bold;
+}
+
+.ostrich > div:nth-child(1) {
+  background-color: #dae7de;
+}
+
+.ostrich > div:nth-child(2) {
+  background-color: #008a69;
+}
+
+.ostrich > div:nth-child(3) {
+  background-color: #f44607;
+}
+
+.ostrich > div:nth-child(4) {
+  background-color: #f7abc5;
+}
+
+.ostrich > div:nth-child(5) {
+  background-color: #5f5fa9;
+}
+
+.ostrich > div:nth-child(6) {
+  background-color: #ffc028;
+}
+
+.ostrich > div:nth-child(7) {
+  background-color: #f97374;
+}
