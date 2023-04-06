@@ -1,5 +1,6 @@
 .DS_Store
-node_modules
+node_modules/
+zoom-clone-practice/nomad-zoom-clone-challenge-assignment01/node_modules
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
