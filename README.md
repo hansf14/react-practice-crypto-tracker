@@ -19,39 +19,39 @@ Projects to be uploaded in the near future:
 **1. [Kokoa Challenge (코코아 클론)](https://nomadcoders.co/kokoa-challenge)** :ballot_box_with_check:
 
 - **2023-02-27 ~ 2023-03-13**
-  - **[kakao-talk-clone-practice](#1-kakao-talk-clone-practice-%E2%98%91%EF%B8%8F)**
-  - **[kakao-talk-clone](#2-kakao-talk-clone-%E2%98%91%EF%B8%8F)**
-  - **[kokoa-challenge](#3-kokoa-challenge-%E2%98%91%EF%B8%8F)**
+  - **[kakao-talk-clone-practice](#1-kakao-talk-clone-practice-ballot_box_with_check)**
+  - **[kakao-talk-clone](#2-kakao-talk-clone-ballot_box_with_check)**
+  - **[kokoa-challenge](#3-kokoa-challenge-ballot_box_with_check)**
 
 <br/>
 
 **2. [CSS Layout Challenge](https://nomadcoders.co/css-layout-challenge)** :ballot_box_with_check:
 
 - **2023-03-06 ~ 2023-03-19**
-  - **[css-layout-clone-challenge](#4-css-layout-clone-challenge-%E2%98%91%EF%B8%8F)**
-  - **[css-website-layout-clone-practice](#5-css-website-layout-clone-practice-%F0%9F%94%B2)**
+  - **[css-layout-clone-challenge](#4-css-layout-clone-challenge-ballot_box_with_check)**
+  - **[css-website-layout-clone-practice](#5-css-website-layout-clone-practice-black_square_button)**
 
 <br/>
 
 **3. [TypeScript Challenge (타입스크립트)](https://nomadcoders.co/typescript-challenge)** :ballot_box_with_check:
 
 - **2023-03-06 ~ 2023-03-19**
-  - **[typescript-challenge-practice](#6-typescript-challenge-practice-%F0%9F%94%B2)**
+  - **[typescript-challenge-practice](#6-typescript-challenge-practice-black_square_button)**
 
 <br/>
 
 **4. [Python Challenge (파이썬)](https://nomadcoders.co/python-challenge)** :ballot_box_with_check:
 
 - **2023-03-13 ~ 2023-03-26**
-  - **[job-tracker](#7-job-tracker-%F0%9F%94%B2)**
+  - **[job-tracker](#7-job-tracker-black_square_button)**
 
 <br/>
 
 **5. [Noom Challenge (줌 클론)](https://nomadcoders.co/noom-challenge)** :ballot_box_with_check:
 
 - **2023-03-20 ~ 2023-03-26**
-  - **[zoom-clone-practice](#8-zoom-clone-practice-%E2%98%91%EF%B8%8F)**
-  - **[zoom-clone](#9-zoom-clone-%F0%9F%94%B2)**
+  - **[zoom-clone-practice](#8-zoom-clone-practice-ballot_box_with_check)**
+  - **[zoom-clone](#9-zoom-clone-black_square_button)**
 
 <br/>
 
@@ -252,7 +252,8 @@ Projects to be uploaded in the near future:
 
 ### 9. zoom-clone :black_square_button:
 
-> **HTML & CSS & JavaScript & Socket.io & WebRTC**
+> **HTML & CSS & JavaScript**
+> **Socket.io & WebRTC**
 
 &emsp;**[Demo Preview]** - *Currently Updating*  
 &emsp;[https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment03-z6x1e4](https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment03-z6x1e4)
