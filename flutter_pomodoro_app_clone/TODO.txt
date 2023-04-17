@@ -1,0 +1,12 @@
+- feature: reset remaining time
+  -> ask for confirmation with pop-up
+  -> [reset button] [lock toggle button]
+- feature: reset all pomodoros
+  -> ask for confirmation with pop-up
+  -> [reset all button] [lock toggle button]
+- feature: resets all pomodoros when it's a new day
+- feature: store pomodoros every time the number of pomodoros changes at the external/internal storage
+- feature: check pomodoros of any day from the calendar
+- feature: set work pomodoro total time & rest pomodoro total time
+  [text field] [lock] [set]
+  [text field] [lock] [set]
