@@ -82,19 +82,25 @@ Projects to be uploaded in the near future:
 
 ### 1. kakao-talk-clone-practice :ballot_box_with_check:
 
-> **HTML & CSS**
+<p>
+  &emsp;
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white&logoWidth=25" height="25px"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white&logoWidth=25" height="25px"/>
+</p>
 
-&emsp;**[Demo]**  
-&emsp;[https://hansf14.github.io/digital-nomad-life/kakao-talk-clone-practice/](https://hansf14.github.io/digital-nomad-life/kakao-talk-clone-practice/)
+**- &nbsp;Demo:** [https://hansf14.github.io/digital-nomad-life/kakao-talk-clone-practice/](https://hansf14.github.io/digital-nomad-life/kakao-talk-clone-practice/)
 
 <br/>
 
 ### 2. kakao-talk-clone :ballot_box_with_check:
 
-> **HTML & CSS**
+<p>
+  &emsp;
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white&logoWidth=25" height="25px"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white&logoWidth=25" height="25px"/>
+</p>
 
-&emsp;**[Demo]**  
-&emsp;[https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/](https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/)
+**- &nbsp;Demo:** [https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/](https://hansf14.github.io/digital-nomad-life/kakao-talk-clone/)
 
 <details>
   <summary><strong>Preview Screenshots</strong></summary>
@@ -120,7 +126,11 @@ Projects to be uploaded in the near future:
 
 ### 3. kokoa-challenge :ballot_box_with_check:
 
-> **HTML & CSS**
+<p>
+  &emsp;
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white&logoWidth=25" height="25px"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white&logoWidth=25" height="25px"/>
+</p>
 
 <details>
   <summary><strong>Demo</strong></summary>
@@ -148,7 +158,11 @@ Projects to be uploaded in the near future:
 
 ### 4. css-layout-clone-challenge :ballot_box_with_check:
 
-> **HTML & CSS**
+<p>
+  &emsp;
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white&logoWidth=25" height="25px"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white&logoWidth=25" height="25px"/>
+</p>
 
 <details>
   <summary><strong>Demo</strong></summary>
@@ -182,9 +196,13 @@ Projects to be uploaded in the near future:
 
 ### 5. css-website-layout-clone-practice :black_square_button:
 
-> **HTML & CSS**
+<p>
+  &emsp;
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white&logoWidth=25" height="25px"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white&logoWidth=25" height="25px"/>
+</p>
 
-&emsp;*Currently Updating* :computer:
+&emsp;**\*Currently Updating\* :computer:**
 
 <details>
   <summary><strong>Demo</strong></summary>
@@ -198,20 +216,33 @@ Projects to be uploaded in the near future:
 
 ### 6. typescript-challenge-practice :black_square_button:
 
-> **TypeScript**
+<p>
+  &emsp;
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white&logoWidth=25" height="25px"/>
+</p>
 
-&emsp;*Currently Updating* :computer:
+&emsp;**\*Currently Updating\* :computer:**
 
 <br/>
 
 ### 7. job-tracker :black_square_button:
 
-> **Python & Python Flask**  
-> **Requests Library & BeautifulSoup Library**
+<p>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/Requests-013243?style=flat&logo=requests&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/BeautifulSoup-013243?style=flat&logo=beautifulsoup&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+</p>
 
-&emsp;*Currently Updating* :computer:
+&emsp;**\*Currently Updating\* :computer:**
 
-&emsp;**[Demo]**
+**- &nbsp;Demo**
 
 <details>
   <summary><strong>Preview Screenshots</strong></summary>
@@ -221,11 +252,21 @@ Projects to be uploaded in the near future:
 
 ### 8. zoom-clone-practice :ballot_box_with_check:
 
-> **HTML & CSS & JavaScript**  
-> **WebSocket & Socket.io**
+<p>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/WebSocket-F9A03C?style=flat&logo=websocket&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socketdotio&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+</p>
 
-&emsp;**[Demo]**  
-&emsp;[Assignment01 (WebSocket)](https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment01-3rys5i)
+**- &nbsp;Demo:** [Assignment01 (WebSocket)](https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment01-3rys5i)
 
 <details>
   <summary><strong>Preview Screenshots</strong></summary>
@@ -236,8 +277,7 @@ Projects to be uploaded in the near future:
 
 ---
 
-&emsp;**[Demo]**  
-&emsp;[Assignment02 (Socket.io)](https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment02-fbgev4)
+**- &nbsp;Demo:** [Assignment02 (Socket.io)](https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment02-fbgev4)
 
 <details>
   <summary><strong>Preview Screenshots</strong></summary>
@@ -252,10 +292,58 @@ Projects to be uploaded in the near future:
 
 ### 9. zoom-clone :black_square_button:
 
-> **HTML & CSS & JavaScript**
-> **Socket.io & WebRTC**
+<p>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socketdotio&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/WebRTC-333333?style=flat&logo=webrtc&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+</p>
 
-&emsp;**[Demo Preview]** - *Currently Updating*  
-&emsp;[https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment03-z6x1e4](https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment03-z6x1e4)
+&emsp;**\*Currently Updating\* :computer:**
+
+**- &nbsp;Demo:** [https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment03-z6x1e4](https://codesandbox.io/p/sandbox/nomad-noom-challenge-assignment03-z6x1e4)
 
 <br/>
+
+### 10. flutter_financial_app_layout_clone :ballot_box_with_check:
+
+<p>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+</p>
+
+<details>
+  <summary><strong>Preview Screenshots</strong></summary>
+  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_financial_app_layout_clone/preview-screenshots/flutter-financial-app-layout-clone01.PNG" alt="flutter-financial-app-layout-clone01.PNG" />
+</details>
+
+### 11. flutter_pomodoro_app_clone :ballot_box_with_check:
+
+<p>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+</p>
+
+<details>
+  <summary><strong>Preview Screenshots</strong></summary>
+  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_pomodoro_app_clone/preview-screenshots/flutter-pomodoro-app-clone01.PNG" alt="flutter-pomodoro-app-clone01.PNG" />
+</details>
