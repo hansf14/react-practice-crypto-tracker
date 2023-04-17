@@ -327,7 +327,7 @@ Projects to be uploaded in the near future:
 
 <details>
   <summary><strong>Preview Screenshots</strong></summary>
-  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_financial_app_layout_clone/preview-screenshots/flutter-financial-app-layout-clone01.PNG" alt="flutter-financial-app-layout-clone01.PNG" />
+  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_financial_app_layout_clone/preview-screenshots/flutter-financial-app-layout-clone01.jpg" alt="flutter-financial-app-layout-clone01.jpg" />
 </details>
 
 ### 11. flutter_pomodoro_app_clone :ballot_box_with_check:
@@ -345,5 +345,6 @@ Projects to be uploaded in the near future:
 
 <details>
   <summary><strong>Preview Screenshots</strong></summary>
-  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_pomodoro_app_clone/preview-screenshots/flutter-pomodoro-app-clone01.PNG" alt="flutter-pomodoro-app-clone01.PNG" />
+  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_pomodoro_app_clone/preview-screenshots/flutter-pomodoro-app-clone01.jpg" alt="flutter-pomodoro-app-clone01.jpg" />
+  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_pomodoro_app_clone/preview-screenshots/flutter-pomodoro-app-clone02.jpg" alt="flutter-pomodoro-app-clone02.jpg" />
 </details>
