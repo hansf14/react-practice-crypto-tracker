@@ -373,7 +373,7 @@ Projects to be uploaded in the near future:
 
 <details>
   <summary><strong>Preview Screenshots</strong></summary>
-</details>
+</details>`
 
 <br/>
 
@@ -393,7 +393,9 @@ Projects to be uploaded in the near future:
 <details>
   <summary><strong>Preview Screenshots</strong></summary>
   <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_naver_webtoon_viewer_practice/preview-screenshots/flutter_naver_webtoon_viewer_practice01.PNG" alt="flutter_naver_webtoon_viewer_practice01.PNG" />
-  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_naver_webtoon_viewer_practice/preview-screenshots/flutter-pomodoro-app-clone02.PNG" alt="flutter_naver_webtoon_viewer_practice02.PNG" />
+  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_naver_webtoon_viewer_practice/preview-screenshots/flutter_naver_webtoon_viewer_practice02.PNG" alt="flutter_naver_webtoon_viewer_practice02.PNG" />
+  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_naver_webtoon_viewer_practice/preview-screenshots/flutter_naver_webtoon_viewer_practice03.PNG" alt="flutter_naver_webtoon_viewer_practice03.PNG" />
+  <img width="300px" src="https://hansf14.github.io/digital-nomad-life/flutter_naver_webtoon_viewer_practice/preview-screenshots/flutter_naver_webtoon_viewer_practice04.PNG" alt="flutter_naver_webtoon_viewer_practice04.PNG" />
 </details>
 
 <br/>
