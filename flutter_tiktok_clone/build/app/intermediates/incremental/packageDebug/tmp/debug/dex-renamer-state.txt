@@ -1,0 +1,4 @@
+#Sat Apr 22 02:06:55 KST 2023
+base.0=F\:\\Projects\\nomad\\digital-nomad-life\\flutter_tiktok_clone\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
