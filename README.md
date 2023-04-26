@@ -255,7 +255,7 @@ Projects to be uploaded in the near future:
 <p>
   <div>
     &emsp;
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/Pug-A86454?style=flat&logo=#A86454&logoColor=white&logoWidth=25" height="25px"/>
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white&logoWidth=25" height="25px"/>
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white&logoWidth=25" height="25px"/>
   </div>
@@ -295,7 +295,7 @@ Projects to be uploaded in the near future:
 <p>
   <div>
     &emsp;
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/Pug-A86454?style=flat&logo=#A86454&logoColor=white&logoWidth=25" height="25px"/>
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white&logoWidth=25" height="25px"/>
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white&logoWidth=25" height="25px"/>
   </div>

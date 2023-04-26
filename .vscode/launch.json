@@ -93,17 +93,16 @@
 			"type": "dart",
 			"args": ["--web-renderer", "html", "--web-hostname", "127.0.0.1"]
 			// "dart.flutterRunAdditionalArgs": ["--web-renderer", "html"]
-      // Property dart.flutterRunAdditionalArgs is not allowed.
 			// "program": "flutter_pomodoro_app_clone/lib/main.dart"
 		},
-		{
-			"name": "sdk gphone x86 64 arm64 (mobile)",
-			"request": "launch",
-			"type": "dart",
-			"deviceId": "emulator-5554",
-      "args": ["--web-renderer", "html", "--web-hostname", "127.0.0.1"]
-			// "program": "flutter_pomodoro_app_clone/lib/main.dart"
-		},
+		// {
+		// 	"name": "sdk gphone x86 64 arm64 (mobile)",
+		// 	"request": "launch",
+		// 	"type": "dart",
+		// 	"deviceId": "emulator-5554",
+    //   "args": ["--web-renderer", "html", "--web-hostname", "127.0.0.1"]
+		// 	// "program": "flutter_pomodoro_app_clone/lib/main.dart"
+		// },
 		{
 			"name": "SM A7050 (mobile)",
 			"request": "launch",
