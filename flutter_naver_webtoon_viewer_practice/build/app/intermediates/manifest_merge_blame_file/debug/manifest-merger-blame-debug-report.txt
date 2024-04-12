@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutter_naver_webtoon_viewer_practice"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!-- Added by me [start] -->
+11    <!-- Provide required visibility configuration for API level 30 and above -->
+12    <queries>
+12-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:5:5-20:15
+13
+14        <!-- If your app checks for SMS support -->
+15        <intent>
+15-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:7:7-10:16
+16            <action android:name="android.intent.action.VIEW" />
+16-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:8:9-61
+16-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:8:17-58
+17
+18            <data android:scheme="sms" />
+18-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:9:9-38
+18-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:9:15-35
+19        </intent>
+20        <!-- If your app checks for call support -->
+21        <intent>
+21-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:12:7-15:16
+22            <action android:name="android.intent.action.VIEW" />
+22-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:8:9-61
+22-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:8:17-58
+23
+24            <data android:scheme="tel" />
+24-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:9:9-38
+24-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:9:15-35
+25        </intent>
+26        <intent>
+26-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:16:7-19:16
+27            <action android:name="android.intent.action.VIEW" />
+27-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:8:9-61
+27-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:8:17-58
+28
+29            <data android:scheme="https" />
+29-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:9:9-38
+29-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\main\AndroidManifest.xml:9:15-35
+30        </intent>
+31    </queries>
+32    <!-- Added by me [end] -->
+33    <!--
+34         The INTERNET permission is required for development. Specifically,
+35         the Flutter tool needs it to communicate with the running application
+36         to allow setting breakpoints, to provide hot reload, etc.
+37    -->
+38    <uses-permission android:name="android.permission.INTERNET" />
+38-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\debug\AndroidManifest.xml:26:5-66
+38-->F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\android\app\src\debug\AndroidManifest.xml:26:22-64
+39    <!-- Added by me [end] -->
+40    <application
+41        android:name="android.app.Application"
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.6.0] C:\Users\Sam\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+45        android:label="flutter_naver_webtoon_viewer_practice" >
+46        <activity
+47            android:name="com.example.flutter_naver_webtoon_viewer_practice.MainActivity"
+48            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+49            android:exported="true"
+50            android:hardwareAccelerated="true"
+51            android:launchMode="singleTop"
+52            android:theme="@style/LaunchTheme"
+53            android:windowSoftInputMode="adjustResize" >
+54
+55            <!--
+56                 Specifies an Android theme to apply to this Activity as soon as
+57                 the Android process has started. This theme is visible to the user
+58                 while the Flutter UI initializes. After that, this theme continues
+59                 to determine the Window background behind the Flutter UI.
+60            -->
+61            <meta-data
+62                android:name="io.flutter.embedding.android.NormalTheme"
+63                android:resource="@style/NormalTheme" />
+64
+65            <intent-filter>
+66                <action android:name="android.intent.action.MAIN" />
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+69            </intent-filter>
+70        </activity>
+71        <!--
+72             Don't delete the meta-data below.
+73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+74        -->
+75        <meta-data
+76            android:name="flutterEmbedding"
+77            android:value="2" />
+78
+79        <activity
+79-->[:url_launcher_android] F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+80            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+80-->[:url_launcher_android] F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+81            android:exported="false"
+81-->[:url_launcher_android] F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+82            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+82-->[:url_launcher_android] F:\Projects\nomad\digital-nomad-life\flutter_naver_webtoon_viewer_practice\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+83
+84        <uses-library
+84-->[androidx.window:window:1.0.0-beta04] C:\Users\Sam\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+85            android:name="androidx.window.extensions"
+85-->[androidx.window:window:1.0.0-beta04] C:\Users\Sam\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0-beta04] C:\Users\Sam\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+87        <uses-library
+87-->[androidx.window:window:1.0.0-beta04] C:\Users\Sam\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+88            android:name="androidx.window.sidecar"
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\Sam\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+89            android:required="false" />
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\Sam\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+90    </application>
+91
+92</manifest>
