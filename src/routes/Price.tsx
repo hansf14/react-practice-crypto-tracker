@@ -8,7 +8,7 @@ export interface PriceProps {
 }
 
 function Price({ coinId }: PriceProps) {
-	const { isLoading, data, isError } = useQuery(
+	const { isLoading, data } = useQuery(
 		["coin-tickers", coinId],
 		() => fetchCoinTickers({ coinId })
 		// {
