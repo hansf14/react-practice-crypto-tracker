@@ -56,16 +56,6 @@ const Img = styled.img`
 	margin-right: 10px;
 `;
 
-interface ICoin {
-	id: string;
-	name: string;
-	symbol: string;
-	rank: number;
-	is_new: boolean;
-	is_active: boolean;
-	type: string;
-}
-
 function Coins() {
 	// const [coins, setCoins] = useState<CoinInterface[]>([]);
 	// const [loading, setLoading] = useState(true);
@@ -82,7 +72,7 @@ function Coins() {
 	// 	})();
 	// }, []);
 
-	const { isLoading, data } = useQuery<ICoin[]>("allCoins", fetchCoins, {
+	const { isLoading, data } = useQuery("coins", fetchCoins, {
 		select: (data) => data.slice(0, 30),
 	});
 
@@ -92,9 +82,11 @@ function Coins() {
 				<title>코인</title>
 				<link rel="icon" type="image/png" href="/favicon.png" sizes="16x16" />
 			</Helmet>
+
 			<Header>
 				<Title>코인</Title>
 			</Header>
+
 			{isLoading ? (
 				<Loader>Loading...</Loader>
 			) : (
