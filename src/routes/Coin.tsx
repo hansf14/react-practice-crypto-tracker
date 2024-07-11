@@ -149,8 +149,6 @@ interface PriceData {
 	};
 }
 
-interface PriceData {}
-
 function Coin() {
 	const { coinId } = useParams<RouteParams>();
 	// const [loading, setLoading] = useState(true);
