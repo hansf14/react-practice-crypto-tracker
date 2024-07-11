@@ -26,17 +26,17 @@
 <p>
   <div>
     &emsp;
-    <img width="300px" src="preview-screenshots/01.PNG" alt="01.PNG" />
+    <img width="300px" src="preview-screenshots/01.png" alt="01.png" />
   </div>
   &emsp;
   <div>
     &emsp;
-    <img width="300px" src="preview-screenshots/02.PNG" alt="02.PNG" />
+    <img width="300px" src="preview-screenshots/02.png" alt="02.png" />
   </div>
   &emsp;
   <div>
     &emsp;
-    <img width="300px" src="preview-screenshots/03.PNG" alt="03.PNG" />
+    <img width="300px" src="preview-screenshots/03.png" alt="03.png" />
   </div>
 </p>
 
