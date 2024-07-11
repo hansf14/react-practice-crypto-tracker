@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/digital-nomad-life/react-practice-crypto-tracker/static/js/main.c8d53413.js",
-    "index.html": "/digital-nomad-life/react-practice-crypto-tracker/index.html",
-    "main.c8d53413.js.map": "/digital-nomad-life/react-practice-crypto-tracker/static/js/main.c8d53413.js.map"
+    "main.js": "/react-practice-crypto-tracker/static/js/main.c88ee53d.js",
+    "index.html": "/react-practice-crypto-tracker/index.html",
+    "main.c88ee53d.js.map": "/react-practice-crypto-tracker/static/js/main.c88ee53d.js.map"
   },
   "entrypoints": [
-    "static/js/main.c8d53413.js"
+    "static/js/main.c88ee53d.js"
   ]
 }
