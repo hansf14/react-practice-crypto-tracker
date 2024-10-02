@@ -11,13 +11,21 @@
   <div>
     &emsp;
     <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white&logoWidth=25" height="25px"/>
+   
+  </div>
+  <div>
+    &emsp;
     <img src="https://img.shields.io/badge/React Router-CA4245?style=flat&logo=reactrouter&logoColor=white&logoWidth=25" height="25px"/>
     <img src="https://img.shields.io/badge/React Query-FF4154?style=flat&logo=reactquery&logoColor=white&logoWidth=25" height="25px"/>
   </div>
   <div>
     &emsp;
     <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat&logo=styledcomponents&logoColor=white&logoWidth=25" height="25px"/>
-    <img src="https://img.shields.io/badge/ApexCharts-00599C?style=flat&logo=cplusplusstl&logoColor=white&logoWidth=25" height="25px"/>
+    <img src="https://img.shields.io/badge/ApexCharts.js-008FFB?style=flat&logo=apexchartsdotjs&logoColor=white&logoWidth=25" height="25px"/>
+  </div>
+  <div>
+    &emsp;
+    <img src="https://img.shields.io/badge/Recoil-3578E5?style=flat&logo=recoil&logoColor=white&logoWidth=25" height="25px"/>
   </div>
 </p>
 
