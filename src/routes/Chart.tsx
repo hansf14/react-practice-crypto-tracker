@@ -3,6 +3,8 @@
 import { useQuery } from "react-query";
 import { fetchCoinHistory } from "../api";
 import ApexChart from "react-apexcharts";
+import { useRecoilValue } from "recoil";
+import { atomIsDarkMode } from "../atoms";
 
 export interface ChartProps {
 	coinId: string;
@@ -18,6 +20,8 @@ function Chart({ coinId }: ChartProps) {
 		// }
 	);
 
+	const isDarkMode = useRecoilValue(atomIsDarkMode);
+
 	return (
 		<div>
 			{
@@ -29,7 +33,7 @@ function Chart({ coinId }: ChartProps) {
 					<ApexChart
 						type="line"
 						options={{
-							theme: { mode: "dark" },
+							theme: { mode: isDarkMode ? "dark" : "light" },
 							chart: {
 								width: 500,
 								height: 300,

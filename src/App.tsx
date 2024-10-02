@@ -2,6 +2,10 @@ import { createGlobalStyle } from "styled-components";
 import Router from "./Router";
 import { Helmet } from "react-helmet-async";
 import { ReactQueryDevtools } from "react-query/devtools";
+import { ThemeProvider } from "styled-components";
+import { lightTheme, darkTheme } from "./theme";
+import { useRecoilValue } from "recoil";
+import { atomIsDarkMode } from "./atoms";
 
 /* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap'); */
 const GlobalStyle = createGlobalStyle`
@@ -66,8 +70,8 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 500;
     font-style: normal;
     
-    background-color: ${(props) => props.theme.bgColor};
-    color: ${(props) => props.theme.textColor};
+    background-color: ${({ theme }) => theme.bgColor};
+    color: ${({ theme }) => theme.textColor};
   }
   a {
     text-decoration: none;
@@ -76,17 +80,21 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 function App() {
+	const isDarkMode = useRecoilValue(atomIsDarkMode);
+
 	return (
 		<>
-			<Helmet>
-				<link
-					href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
-					rel="stylesheet"
-				/>
-			</Helmet>
-			<GlobalStyle />
-			<Router />
-			<ReactQueryDevtools initialIsOpen={true} />
+			<ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
+				<Helmet>
+					<link
+						href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+						rel="stylesheet"
+					/>
+				</Helmet>
+				<GlobalStyle />
+				<Router />
+				<ReactQueryDevtools initialIsOpen={true} />
+			</ThemeProvider>
 		</>
 	);
 }

@@ -1,10 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { ThemeProvider } from "styled-components";
+import { createRoot } from "react-dom/client";
 import App from "./App";
-import { theme } from "./theme";
 import { HelmetProvider } from "react-helmet-async";
 import { QueryClient, QueryClientProvider } from "react-query";
+import { RecoilRoot } from "recoil";
 
 const queryClient = new QueryClient({
 	defaultOptions: {
@@ -16,15 +14,33 @@ const queryClient = new QueryClient({
 	},
 });
 
-ReactDOM.render(
-	<React.StrictMode>
+// ReactDOM.render(
+// 	<React.StrictMode>
+// 		<HelmetProvider>
+// 			<QueryClientProvider client={queryClient}>
+// 				<App />
+// 			</QueryClientProvider>
+// 		</HelmetProvider>
+// 	</React.StrictMode>,
+// 	document.getElementById("root")
+// );
+
+const Root = () => {
+	return (
+		// <React.StrictMode>
 		<HelmetProvider>
-			<QueryClientProvider client={queryClient}>
-				<ThemeProvider theme={theme}>
+			<RecoilRoot>
+				<QueryClientProvider client={queryClient}>
 					<App />
-				</ThemeProvider>
-			</QueryClientProvider>
+				</QueryClientProvider>
+			</RecoilRoot>
 		</HelmetProvider>
-	</React.StrictMode>,
-	document.getElementById("root")
-);
+		// </React.StrictMode>,
+	);
+};
+
+// ReactDOM.render(<Root />, document.getElementById("root"));
+
+const container = document.getElementById("root");
+const root = createRoot(container!); // createRoot(container!) if you use TypeScript
+root.render(<Root />);

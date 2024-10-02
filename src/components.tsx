@@ -104,7 +104,9 @@ export const Tabs = styled.div`
 	gap: 10px;
 `;
 
-export const Tab = styled.span<{ isActive: boolean }>`
+export const Tab = styled.span.withConfig({
+	shouldForwardProp: (prop) => !["isActive"].includes(prop),
+})<{ isActive: boolean }>`
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 12px;
